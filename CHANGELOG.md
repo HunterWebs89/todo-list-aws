@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Incremento porcentaje de pruebas (75%)
+- Revisión líneas no cubiertas por coverage.
 
 ## [1.0.1] - 2022-12-06
 ### Added
@@ -33,3 +34,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Modificados Endpoints DynamoDB
 - Agregado test_get_table al TestToDo
+- Incremento porcentaje de pruebas (78%)
