@@ -35,6 +35,16 @@ class TestDatabaseFunctions(unittest.TestCase):
         #self.table_local = create_todo_table()
         print ('End: setUp')
 
+    def test_get_table(self):
+        print ('Start: test_get_table')
+        print('Table name:' + self.table.name)
+        from src.todoList import get_table
+        self.dynamodb = None
+        table = get_table(self.dynamodb)
+        print ('Table name:' +table.name)
+        self.assertIn(table.name, self.table.name)
+        print ('End: test_get_table')
+
     def tearDown(self):
         print ('---------------------')
         print ('Start: tearDown')
