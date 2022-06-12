@@ -12,6 +12,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Creación rama feature (sam-test)
 
-## [1.0.1] - 2022-05-06
+## 2022-05-06
 ### Added 
 - samconfig.toml config
+- Jenkinsfile con el nombre apropiado (sgd-caso1)
+
+## 2022-11-06
+### Added
+
+- Incremento porcentaje de pruebas (75%)
+
+## 2022-12-06
+### Added
+
+- Fix ssh agent
+- Tag 1.0.1
